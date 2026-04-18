@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('8371716926:AAHntDy2QgUlKdzxGD-KZR83BR_-j2lNEKw')
+bot = telebot.TeleBot('токен')
 ban_words = ['дурак', 'блин', 'http']
 
 @bot.message_handler(content_types=['new_chat_members'])
